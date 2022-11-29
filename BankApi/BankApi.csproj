@@ -24,4 +24,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BankApi.BusinessLayer\BankApi.BusinessLayer.csproj" />
+    <ProjectReference Include="..\BankApi.Logging\BankApi.Logging.csproj" />
+    <ProjectReference Include="..\BankApi.Security\BankApi.Security.csproj" />
+  </ItemGroup>
+
 </Project>

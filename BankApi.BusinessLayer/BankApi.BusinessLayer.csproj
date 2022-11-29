@@ -16,4 +16,13 @@
 		<PackageReference Include="MimeMapping" Version="1.0.1.37" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\BankApi.Authentication\BankApi.Authentication.csproj" />
+	  <ProjectReference Include="..\BankApi.Contracts\BankApi.Contracts.csproj" />
+	  <ProjectReference Include="..\BankApi.DataAccessLayer\BankApi.DataAccessLayer.csproj" />
+	  <ProjectReference Include="..\BankApi.Logging\BankApi.Logging.csproj" />
+	  <ProjectReference Include="..\BankApi.Shared\BankApi.Shared.csproj" />
+	  <ProjectReference Include="..\BankApi.StorageProviders\BankApi.StorageProviders.csproj" />
+	</ItemGroup>
+
 </Project>

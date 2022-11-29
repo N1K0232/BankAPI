@@ -10,5 +10,13 @@
 		<PackageReference Include="TinyHelpers" Version="1.5.41" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\BankApi.Authentication\BankApi.Authentication.csproj" />
+	  <ProjectReference Include="..\BankApi.Contracts\BankApi.Contracts.csproj" />
+	  <ProjectReference Include="..\BankApi.Database\BankApi.Database.sqlproj" />
+	  <ProjectReference Include="..\BankApi.Security\BankApi.Security.csproj" />
+	  <ProjectReference Include="..\BankApi.Shared\BankApi.Shared.csproj" />
+	</ItemGroup>
+
 
 </Project>

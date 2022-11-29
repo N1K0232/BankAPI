@@ -8,5 +8,9 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="7.0.0" />
 	</ItemGroup>
+		
+	<ItemGroup>
+	  <ProjectReference Include="..\BankApi.Authentication\BankApi.Authentication.csproj" />
+	</ItemGroup>
 
 </Project>
